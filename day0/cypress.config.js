@@ -5,6 +5,7 @@ module.exports = defineConfig({
     viewportWidth: 1440,
     viewportHeight: 1400,
     e2e: {
+        supportFile: false,
         setupNodeEvents(on, config) {
             // node listeners
         },
