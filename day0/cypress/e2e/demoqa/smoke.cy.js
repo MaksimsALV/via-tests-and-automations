@@ -18,7 +18,7 @@ describe('Demo QA - ViA - Maksims Ahmetovs', () => {
             // assert tests
             cy.get('p#name').should('have.text', 'Name:Maksims Ahmetovs');
             cy.get('p#email').should('have.text', 'Email:maksims.ahmetovs@va.lv');
-            cy.get('p#currentAddress').should('contain.text', 'Current Addresss :My current address');
+            cy.get('p#currentAddress').should('contain.text', 'Current Address :My current address');
             cy.get('p#permanentAddress').should('contain.text', 'Permanent Address :My permanent address');
         });
     });
